@@ -1,0 +1,12 @@
+#users>.user-43 {
+  animation: jump-user-43;
+  animation-duration:  1.0s;
+  animation-delay: calc(var(--index) * 1.0s);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jump-user-43 {
+  from { padding-bottom: 100px; padding-top: 0px; }
+  to { padding-bottom: 0px; padding-top: 0px; }
+}
